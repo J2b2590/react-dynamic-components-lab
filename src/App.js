@@ -8,6 +8,7 @@ class App extends Component {
   // Make note of what prop we are initially passing to `ColorBox` below!
   
   render() {
+    console.log(ColorBox)
     return (
       <div id="app">
           <BlogPost />
